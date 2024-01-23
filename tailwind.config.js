@@ -12,20 +12,14 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "primary": "#c9419d",
+        "secondary": "#e788c8",
+        "accent": "#e84cb5",
+        "neutral": "#37162c",
+        "base-100": "#fdfafc",
+      },
     },
   },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: [
-      {
-        myTheme: {
-          "primary": "#c9419d",
-          "secondary": "#e788c8",
-          "accent": "#e84cb5",
-          "neutral": "#37162c",
-          "base-100": "#fdfafc",
-        },
-      },
-    ],
-  },
+  plugins: [],
 };
